@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/QtWidgetsApplication1">
+        <file>images/openfile.gif</file>
+        <file>images/delete.png</file>
+        <file>images/exit.png</file>
+        <file>images/help.png</file>
+        <file>images/newfile.png</file>
+        <file>images/savefile.png</file>
+        <file>help.txt</file>
+    </qresource>
+</RCC>

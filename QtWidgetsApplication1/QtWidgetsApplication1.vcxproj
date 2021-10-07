@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{10D6AA0C-1427-4D59-8863-6686C7B27D14}</ProjectGuid>
+    <Keyword>QtVS_v302</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.18362.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\nurbs++\image;F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\nurbs++\include;F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\nurbs++\matrix;F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\nurbs++\numerical;F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\nurbs++\nurbs;F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\GSNurbsCloth;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>msvc2017_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>msvc2017_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\nurbs++\image;F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\nurbs++\include;F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\nurbs++\matrix;F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\nurbs++\numerical;F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\nurbs++\nurbs;F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\nurbs++\nurbsLib;F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\GSNurbsCloth;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>F:\qtvs\QtWidgetsApplication1\QtWidgetsApplication1\nurbs++\nurbsLib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nurbsLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Transform_tools.cpp" />
+    <QtRcc Include="QtWidgetsApplication1.qrc" />
+    <QtUic Include="QtWidgetsApplication1.ui" />
+    <QtMoc Include="QtWidgetsApplication1.h" />
+    <ClCompile Include="Draw_Manager.cpp" />
+    <ClCompile Include="GSNurbsCloth\GSCloth.cpp" />
+    <ClCompile Include="GSNurbsCloth\GSNurbsCurve.cpp" />
+    <ClCompile Include="GSNurbsCloth\GSNurbsPiece.cpp" />
+    <ClCompile Include="GSNurbsCloth\GSNurbsPoint.cpp" />
+    <ClCompile Include="GSNurbsCloth\GSNurbsVec3D.cpp" />
+    <ClCompile Include="GSNurbsCloth\GSSeawingInfo.cpp" />
+    <ClCompile Include="GSNurbsCloth\PieceTexCoord.cpp" />
+    <ClCompile Include="MyGraphicsItem.cpp" />
+    <ClCompile Include="MyGraphicsScene.cpp" />
+    <ClCompile Include="MyGraphicsView.cpp" />
+    <ClCompile Include="QtWidgetsApplication1.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Draw_Manager.h" />
+    <ClInclude Include="GSNurbsCloth\AnchorPoint.h" />
+    <ClInclude Include="GSNurbsCloth\GSCloth.h" />
+    <ClInclude Include="GSNurbsCloth\GSNurbsCurve.h" />
+    <ClInclude Include="GSNurbsCloth\GSNurbsDecltype.h" />
+    <ClInclude Include="GSNurbsCloth\GSNurbsPiece.h" />
+    <ClInclude Include="GSNurbsCloth\GSNurbsPoint.h" />
+    <ClInclude Include="GSNurbsCloth\GSNurbsVec3D.h" />
+    <ClInclude Include="GSNurbsCloth\GSSeawingInfo.h" />
+    <ClInclude Include="GSNurbsCloth\PieceTexCoord.h" />
+    <ClInclude Include="MyGraphicsItem.h" />
+    <ClInclude Include="MyGSCloth.h" />
+    <ClInclude Include="nurbs++\image\color.h" />
+    <ClInclude Include="nurbs++\image\image.h" />
+    <ClInclude Include="nurbs++\image\rec_filter.h" />
+    <ClInclude Include="nurbs++\image\refilter.h" />
+    <ClInclude Include="nurbs++\include\plib.h" />
+    <ClInclude Include="nurbs++\include\plib_config.h" />
+    <ClInclude Include="nurbs++\matrix\barray.h" />
+    <ClInclude Include="nurbs++\matrix\barray2d.h" />
+    <ClInclude Include="nurbs++\matrix\coordinate.h" />
+    <ClInclude Include="nurbs++\matrix\cvector.h" />
+    <ClInclude Include="nurbs++\matrix\dv_hpoint_nd.h" />
+    <ClInclude Include="nurbs++\matrix\dv_point_nd.h" />
+    <ClInclude Include="nurbs++\matrix\error.h" />
+    <ClInclude Include="nurbs++\matrix\hpoint_nd.h" />
+    <ClInclude Include="nurbs++\matrix\list.h" />
+    <ClInclude Include="nurbs++\matrix\matrix.h" />
+    <ClInclude Include="nurbs++\matrix\matrixTool.h" />
+    <ClInclude Include="nurbs++\matrix\matrix_global.h" />
+    <ClInclude Include="nurbs++\matrix\point_nd.h" />
+    <ClInclude Include="nurbs++\matrix\specialType.h" />
+    <ClInclude Include="nurbs++\matrix\specialVcc.h" />
+    <ClInclude Include="nurbs++\matrix\vector.h" />
+    <ClInclude Include="nurbs++\numerical\integrate.h" />
+    <ClInclude Include="nurbs++\numerical\matrixMat.h" />
+    <ClInclude Include="nurbs++\numerical\statistic.h" />
+    <ClInclude Include="nurbs++\nurbs\curve.h" />
+    <ClInclude Include="nurbs++\nurbs\hnurbs.h" />
+    <ClInclude Include="nurbs++\nurbs\hnurbsS.h" />
+    <ClInclude Include="nurbs++\nurbs\hnurbsS_sp.h" />
+    <ClInclude Include="nurbs++\nurbs\matrixRT.h" />
+    <ClInclude Include="nurbs++\nurbs\nurbs.h" />
+    <ClInclude Include="nurbs++\nurbs\nurbsGL.h" />
+    <ClInclude Include="nurbs++\nurbs\nurbsS.h" />
+    <ClInclude Include="nurbs++\nurbs\nurbsSub.h" />
+    <ClInclude Include="nurbs++\nurbs\nurbsS_sp.h" />
+    <ClInclude Include="nurbs++\nurbs\nurbs_global.h" />
+    <ClInclude Include="nurbs++\nurbs\nurbs_sp.h" />
+    <ClInclude Include="nurbs++\nurbs\surface.h" />
+    <ClInclude Include="nurbs++\nurbs\tri_spline.h" />
+    <ClInclude Include="Transform_Tools.h" />
+    <QtMoc Include="MyGraphicsScene.h" />
+    <QtMoc Include="MyGraphicsView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="help.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,485 @@
+﻿  uic QtWidgetsApplication1.ui
+  moc QtWidgetsApplication1.h
+  moc MyGraphicsScene.h
+  moc MyGraphicsView.h
+  Transform_tools.cpp
+  Draw_Manager.cpp
+  GSCloth.cpp
+  GSNurbsCurve.cpp
+f:\qtvs\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbsvec3d.h(6): error C2011: “GSVec3D”:“class”类型重定义 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+f:\qtvs\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbsvec3d.h(6): error C2011: “GSVec3D”:“class”类型重定义 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(40): error C2079: “AnchorPoint::p”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(40): error C2079: “AnchorPoint::p”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(41): error C2079: “AnchorPoint::n”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(41): error C2079: “AnchorPoint::n”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(42): error C2079: “AnchorPoint::h”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(42): error C2079: “AnchorPoint::h”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(25): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(25): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(26): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(27): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(26): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(27): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(64): error C2079: “GSNurbsPiece::maxPoint”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(65): error C2079: “GSNurbsPiece::minPoint”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(68): error C2079: “GSNurbsPiece::scalePointU”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(69): error C2079: “GSNurbsPiece::scalePointD”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(70): error C2079: “GSNurbsPiece::scalePointL”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(71): error C2079: “GSNurbsPiece::scalePointR”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(72): error C2079: “GSNurbsPiece::scalePointUL”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(73): error C2079: “GSNurbsPiece::scalePointUR”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(74): error C2079: “GSNurbsPiece::scalePointDL”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(75): error C2079: “GSNurbsPiece::scalePointDR”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(76): error C2079: “GSNurbsPiece::rotatePoint”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(136): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(137): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(64): error C2079: “GSNurbsPiece::maxPoint”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(65): error C2079: “GSNurbsPiece::minPoint”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(68): error C2079: “GSNurbsPiece::scalePointU”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(69): error C2079: “GSNurbsPiece::scalePointD”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(70): error C2079: “GSNurbsPiece::scalePointL”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(71): error C2079: “GSNurbsPiece::scalePointR”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(72): error C2079: “GSNurbsPiece::scalePointUL”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(73): error C2079: “GSNurbsPiece::scalePointUR”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(74): error C2079: “GSNurbsPiece::scalePointDL”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(75): error C2079: “GSNurbsPiece::scalePointDR”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(76): error C2079: “GSNurbsPiece::rotatePoint”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(136): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(137): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(138): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(139): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(140): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(141): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(142): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(143): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(144): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(146): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(147): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(148): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(149): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(150): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(151): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(152): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(138): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(153): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(154): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(13): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(139): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(15): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(16): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(140): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(17): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(141): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(19): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(142): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(143): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(20): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(144): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(146): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(147): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(23): error C2027: 使用了未定义类型“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(148): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(149): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(150): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(24): error C2027: 使用了未定义类型“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(151): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(25): error C2027: 使用了未定义类型“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(152): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(153): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(154): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSCloth.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(26): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(29): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(31): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(32): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(34): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(35): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(37): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(38): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(42): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(43): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(44): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(45): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(57): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(87): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(88): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(99): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(106): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(108): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(109): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(111): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(123): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(124): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(125): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(126): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(127): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(144): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(144): error C2660: “GSNurbsCurve::IsPointOnLine”: 函数不接受 3 个参数
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(11): note: 参见“GSNurbsCurve::IsPointOnLine”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(161): error C2440: “<function-style-cast>”: 无法从“const GSVec3D”转换为“GSNurbsPoint”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(161): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(177): error C2440: “<function-style-cast>”: 无法从“const GSVec3D”转换为“GSNurbsPoint”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(177): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(177): error C2661: “std::list<GSNurbsPoint,std::allocator<_Ty>>::insert”: 没有重载函数接受 1 个参数
+          with
+          [
+              _Ty=GSNurbsPoint
+          ]
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(196): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(214): error C2440: “<function-style-cast>”: 无法从“const GSVec3D”转换为“GSNurbsPoint”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(214): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(214): error C2661: “std::list<GSNurbsPoint,std::allocator<_Ty>>::insert”: 没有重载函数接受 1 个参数
+          with
+          [
+              _Ty=GSNurbsPoint
+          ]
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(261): error C2079: “dist”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(261): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(193): error C2079: “dartPos”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(193): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(273): error C2079: “distY”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(273): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(210): error C2079: “pos1”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(210): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(276): error C2079: “distX”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(276): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(211): error C2146: 语法错误: 缺少“;”(在标识符“pos2”的前面)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(212): error C2079: “pos3”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(212): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(279): error C2664: “void GSNurbsPoint::Move(const GSVec3D &,bool)”: 无法将参数 1 从“int”转换为“const GSVec3D &”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(279): note: 原因如下: 无法从“int”转换为“const GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(279): note: 未定义类型 "GSVec3D" 的使用
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(214): error C2065: “c”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(215): error C2065: “c”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(288): error C2079: “dist”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(216): error C2065: “c”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(288): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(216): error C2065: “pos2”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(217): error C2065: “c”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gscloth.cpp(218): error C2065: “c”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(291): error C2664: “void GSNurbsPoint::Move(const GSVec3D &,bool)”: 无法将参数 1 从“int”转换为“const GSVec3D &”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(291): note: 原因如下: 无法从“int”转换为“const GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(291): note: 未定义类型 "GSVec3D" 的使用
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(301): error C2079: “dist”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(301): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(304): error C2664: “void GSNurbsPoint::Move(const GSVec3D &,bool)”: 无法将参数 1 从“int”转换为“const GSVec3D &”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(304): note: 原因如下: 无法从“int”转换为“const GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(304): note: 未定义类型 "GSVec3D" 的使用
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(313): error C2079: “up”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(313): error C2440: “初始化”: 无法从“initializer list”转换为“int”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(313): note: 初始值设定项包含过多元素
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(314): error C2079: “dist”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(314): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(322): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(324): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(325): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(326): error C2079: “res”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(328): error C2678: 二进制“-”: 没有找到接受“int”类型的左操作数的运算符(或没有可接受的转换)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbsvec3d.h(120): note: 可能是“GSVec3D operator -(const GSVec3D &,const GSVec3D &)”[通过使用参数相关的查找找到] (编译源文件 GSNurbsCloth\GSNurbsCurve.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(328): note: 尝试匹配参数列表“(int, GSVec3D)”时
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(342): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbscurve.cpp(342): fatal error C1003: 错误计数超过 100；正在停止编译
+  GSNurbsPiece.cpp
+  GSNurbsPoint.cpp
+  class template optional is only available with C++17 or later.
+  GSNurbsVec3D.cpp
+  GSSeawingInfo.cpp
+f:\qtvs\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbsvec3d.h(6): error C2011: “GSVec3D”:“class”类型重定义 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(40): error C2079: “AnchorPoint::p”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(41): error C2079: “AnchorPoint::n”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(42): error C2079: “AnchorPoint::h”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(25): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(26): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(27): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(64): error C2079: “GSNurbsPiece::maxPoint”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(65): error C2079: “GSNurbsPiece::minPoint”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(68): error C2079: “GSNurbsPiece::scalePointU”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(69): error C2079: “GSNurbsPiece::scalePointD”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(70): error C2079: “GSNurbsPiece::scalePointL”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(71): error C2079: “GSNurbsPiece::scalePointR”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(72): error C2079: “GSNurbsPiece::scalePointUL”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(73): error C2079: “GSNurbsPiece::scalePointUR”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(74): error C2079: “GSNurbsPiece::scalePointDL”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(75): error C2079: “GSNurbsPiece::scalePointDR”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(76): error C2079: “GSNurbsPiece::rotatePoint”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(136): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(137): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(138): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(139): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(140): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(141): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(142): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(143): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(144): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(146): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(147): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(148): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(149): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(150): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(151): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(152): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(153): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(154): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(36): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(37): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(38): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(39): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(45): error C2079: “mid”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(45): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(97): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(98): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(99): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(100): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(245): error C2079: “anchor”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(250): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(251): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(254): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(255): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(258): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(259): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(262): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(263): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(266): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(268): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(271): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(273): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(276): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(278): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(281): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(283): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(292): error C2079: “anchor”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(299): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(303): error C2065: “GetUPoint”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(307): error C2065: “GetRPoint”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(311): error C2065: “GetLPoint”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(315): error C2065: “GetDRPoint”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(319): error C2065: “GetDLPoint”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(323): error C2065: “GetURPoint”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(327): error C2065: “GetULPoint”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(334): error C3312: 未找到可调用的“begin”函数(针对类型“unknown-type”)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(334): error C3312: 未找到可调用的“end”函数(针对类型“unknown-type”)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(338): error C2065: “c”: 未声明的标识符
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(345): error C2664: “void GSNurbsCurve::Scale(const GSVec3D &,float,float,bool)”: 无法将参数 1 从“int”转换为“const GSVec3D &”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(345): note: 原因如下: 无法从“int”转换为“const GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(345): note: 未定义类型 "GSVec3D" 的使用
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(350): error C2664: “void GSNurbsCurve::Scale(const GSVec3D &,float,float,bool)”: 无法将参数 1 从“int”转换为“const GSVec3D &”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(350): note: 原因如下: 无法从“int”转换为“const GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(350): note: 未定义类型 "GSVec3D" 的使用
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSNurbsPiece.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(302): error C2051: case 表达式不是常量
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(306): error C2051: case 表达式不是常量
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(310): error C2051: case 表达式不是常量
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(314): error C2051: case 表达式不是常量
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(318): error C2051: case 表达式不是常量
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(322): error C2051: case 表达式不是常量
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(326): error C2051: case 表达式不是常量
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(358): error C2079: “anchor”使用未定义的 class“GSVec3D”
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(365): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(366): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(369): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(370): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(373): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(374): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(377): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(378): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(381): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(383): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(386): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(388): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(391): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(393): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(396): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(398): error C2027: 使用了未定义类型“GSVec3D”
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.cpp(398): fatal error C1003: 错误计数超过 100；正在停止编译
+  PieceTexCoord.cpp
+  MyGraphicsItem.cpp
+  MyGraphicsScene.cpp
+f:\qtvs\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbsvec3d.h(6): error C2011: “GSVec3D”:“class”类型重定义 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(40): error C2079: “AnchorPoint::p”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(41): error C2079: “AnchorPoint::n”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(42): error C2079: “AnchorPoint::h”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(25): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(26): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\anchorpoint.h(27): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(64): error C2079: “GSNurbsPiece::maxPoint”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(65): error C2079: “GSNurbsPiece::minPoint”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(68): error C2079: “GSNurbsPiece::scalePointU”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(69): error C2079: “GSNurbsPiece::scalePointD”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(70): error C2079: “GSNurbsPiece::scalePointL”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(71): error C2079: “GSNurbsPiece::scalePointR”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(72): error C2079: “GSNurbsPiece::scalePointUL”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(73): error C2079: “GSNurbsPiece::scalePointUR”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(74): error C2079: “GSNurbsPiece::scalePointDL”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(75): error C2079: “GSNurbsPiece::scalePointDR”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(76): error C2079: “GSNurbsPiece::rotatePoint”使用未定义的 class“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(136): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(137): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(138): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(139): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(140): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(141): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(142): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(143): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(144): error C2027: 使用了未定义类型“GSVec3D” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspoint.h(8): note: 参见“GSVec3D”的声明 (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(146): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(147): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(148): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(149): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(150): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(151): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(152): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(153): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+e:\qtwidgetsapplication1\qtwidgetsapplication1\gsnurbscloth\gsnurbspiece.h(154): error C2440: “return”: 无法从“int”转换为“GSVec3D &” (编译源文件 GSNurbsCloth\GSSeawingInfo.cpp)
+  MyGraphicsView.cpp
+  QtWidgetsApplication1.cpp
+  class template optional is only available with C++17 or later.
+  class template optional is only available with C++17 or later.
+  class template optional is only available with C++17 or later.
+  main.cpp
+  class template optional is only available with C++17 or later.
